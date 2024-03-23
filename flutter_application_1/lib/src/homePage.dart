@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            'Home Page',
+            'Tipo de aprendizaje',
             textAlign: TextAlign.center, // Alinea el texto al centro
           ),
           centerTitle: true, // Centra el texto en la AppBar
@@ -31,9 +31,9 @@ class MyApp extends StatelessWidget {
                   shape: RoundedRectangleBorder( // Ajusta la forma del botón
                     borderRadius: BorderRadius.circular(10), // Ajusta la redondez de las esquinas
                   ),
-                   backgroundColor: Colors.blue, // Cambia el color del botón aquí
+                    backgroundColor: const Color.fromARGB(255, 152, 154, 155), // Cambia el color del botón aquí
                 ),
-                child: Text('Botón 1', style: TextStyle(fontSize: 20)), // Ajusta el tamaño del texto
+                child: Text('Aprendizaje rapido', style: TextStyle(fontSize: 20)), // Ajusta el tamaño del texto
               ),
               SizedBox(height: 20), // Espacio entre los botones
               ElevatedButton(
@@ -45,9 +45,9 @@ class MyApp extends StatelessWidget {
                   shape: RoundedRectangleBorder( // Ajusta la forma del botón
                     borderRadius: BorderRadius.circular(10), // Ajusta la redondez de las esquinas
                   ),
-                   backgroundColor: Colors.blue, // Cambia el color del botón aquí
+                   backgroundColor: const Color.fromARGB(255, 152, 154, 155), // Cambia el color del botón aquí
                 ),
-                child: Text('Botón 2', style: TextStyle(fontSize: 20)), // Ajusta el tamaño del texto
+                child: Text('Aprendizaje clasico', style: TextStyle(fontSize: 20)), // Ajusta el tamaño del texto
               ),
               SizedBox(height: 20), // Espacio entre los botones
               ElevatedButton(
@@ -59,9 +59,9 @@ class MyApp extends StatelessWidget {
                   shape: RoundedRectangleBorder( // Ajusta la forma del botón
                     borderRadius: BorderRadius.circular(10), // Ajusta la redondez de las esquinas
                   ),
-                   backgroundColor: Colors.blue, // Cambia el color del botón aquí
+                    backgroundColor: const Color.fromARGB(255, 152, 154, 155), // Cambia el color del botón aquí
                 ),
-                child: Text('Botón 3', style: TextStyle(fontSize: 20)), // Ajusta el tamaño del texto
+                child: Text('Aprendizaje lento', style: TextStyle(fontSize: 20)), // Ajusta el tamaño del texto
               ),
             ],
           ),
